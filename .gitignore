@@ -4,15 +4,8 @@
 
 # Build output
 out/
-target/
 build/
+target/
 
-# Compiled Java files
+# Compiled Java
 *.class
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
