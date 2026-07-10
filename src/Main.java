@@ -1,3 +1,5 @@
+import BehavioralPatterns.Observer.Observer;
+import BehavioralPatterns.Observer.ObserverDemo;
 import CreationalPatterns.AbstractFactory.AbstractFactoryDemo;
 import CreationalPatterns.FactoryPattern.FactoryDemo;
 import CreationalPatterns.Singleton.Samosa;
@@ -19,5 +21,8 @@ public class Main {
 
 //        AbstractFactoryDemo abstractFactoryDemo = new AbstractFactoryDemo();
 //        abstractFactoryDemo.run();
+
+        ObserverDemo observerDemo = new ObserverDemo();
+        observerDemo.run();
     }
 }
