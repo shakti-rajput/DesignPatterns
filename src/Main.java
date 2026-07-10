@@ -1,3 +1,5 @@
+import CreationalPatterns.AbstractFactory.AbstractFactoryDemo;
+import CreationalPatterns.FactoryPattern.FactoryDemo;
 import CreationalPatterns.Singleton.Samosa;
 import CreationalPatterns.Singleton.SingletonDemo;
 
@@ -9,7 +11,13 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        SingletonDemo singletonDemo = new SingletonDemo();
-        singletonDemo.runAll();
+//        SingletonDemo singletonDemo = new SingletonDemo();
+//        singletonDemo.runAll();
+
+//        FactoryDemo factoryDemo = new FactoryDemo();
+//        factoryDemo.run();
+
+//        AbstractFactoryDemo abstractFactoryDemo = new AbstractFactoryDemo();
+//        abstractFactoryDemo.run();
     }
 }
