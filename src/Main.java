@@ -1,3 +1,4 @@
+import BehavioralPatterns.Iterator.IteratorDemo;
 import BehavioralPatterns.Observer.Observer;
 import BehavioralPatterns.Observer.ObserverDemo;
 import CreationalPatterns.AbstractFactory.AbstractFactoryDemo;
@@ -22,7 +23,10 @@ public class Main {
 //        AbstractFactoryDemo abstractFactoryDemo = new AbstractFactoryDemo();
 //        abstractFactoryDemo.run();
 
-        ObserverDemo observerDemo = new ObserverDemo();
-        observerDemo.run();
+//        ObserverDemo observerDemo = new ObserverDemo();
+//        observerDemo.run();
+
+        IteratorDemo iteratorDemo = new IteratorDemo();
+        iteratorDemo.run();
     }
 }
